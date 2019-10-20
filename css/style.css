@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #343A40;
+    padding: 12px;
+}
+nav{
+    margin: 0;
+    display: block;
+    overflow: hidden;
+
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: cornsilk;
+    display: block;
+    padding: 8px;
+    font-size: 11px;
+}
+nav ul li img{
+    width: 80px;
+    height: 15px;
+    padding: 0;
+    margin: 0;
+   
+}
+.signup-setion{
+    background-color: #4E4E4E;
+    min-height: 100vh;
+    padding: 150px 200px;
+}
+
+.left-area{
+    width: 50%;
+    float: left;
+    display: block;
+    overflow: hidden;
+    
+}
+.box{
+    padding: 30px;
+    margin-left: 20px;
+    text-align: left;
+}
+.box ul{
+    margin: 0;
+    padding: 0;
+}
+.box ul li {
+    list-style: circle;
+}
+.box ul li a{
+    text-decoration: none;
+    color: cornsilk;
+    display: block;
+    padding: 4px;
+    font-size: 11px;
+}
+.box h1{
+    text-transform: uppercase;
+    color: azure;
+    font-size: 26px;
+    font-weight: 400;
+}
+.box h5{
+    font-size: 11px;
+    font-weight: 100px;
+    color: azure;
+}
+.box h1 span{
+    color: #5FCE7F;
+}
+.box input{
+    background-color: #5FCE7F;
+    color: azure;
+    font-size: 12px;
+    padding: 6px 12px;
+    border-radius: 20px   
+}
+
+.right-area{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    display: block;
+}
+.signup-box form{
+    width: 50%;
+    background: #5FCE7F;
+    color: azure;
+    margin-left: 40px;
+   padding: 20px;
+} 
+.signup-box form h1{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+.signup-box form h5{
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.signup-box form input{
+    width: 100%;
+    padding: 8px 8px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+    border: 1px solid #55555563;
+}
+.signup-box form input[type="submit"]{
+    background-color: #529252;
+    color: azure;
+}
